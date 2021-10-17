@@ -1,0 +1,8 @@
+My powershell config for (pswh 7.1.5)
+-------------------------------------
+
+Included packages:
+- oh-my-posh
+- oh-my-posh theme half-life with spotify addon
+- posh-git
+- winfetch

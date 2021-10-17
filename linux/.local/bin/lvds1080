@@ -1,0 +1,7 @@
+#!/bin/bash
+xrandr --output LVDS1 --panning 1920x1080 --scale 1.406x1.406
+#kquitapp5 plasmashell
+
+#kstart5 plasmashell
+
+

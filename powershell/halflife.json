@@ -1,0 +1,81 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#7E46B6",
+          "properties": {
+            "display_host": false,
+            "prefix": ""
+          },
+          "style": "plain",
+          "type": "session"
+        },
+        {
+          "foreground": "#ffffff",
+          "properties": {
+            "prefix": "",
+            "text": "in"
+          },
+          "style": "plain",
+          "type": "text"
+        },
+        {
+          "foreground": "#87FF00",
+          "properties": {
+            "prefix": "",
+            "style": "full"
+          },
+          "style": "plain",
+          "type": "path"
+        },
+        {
+          "foreground": "#5FD7FF",
+          "properties": {
+            "branch_ahead_icon": "",
+            "branch_behind_icon": "",
+            "branch_gone_icon": "",
+            "branch_icon": "",
+            "branch_identical_icon": "",
+            "display_branch_status": false,
+            "display_status_detail": false,
+            "local_staged_icon": " ●",
+            "local_working_icon": " ●",
+            "prefix": "<#ffffff>on</> ",
+            "staging_color": "#87FF00",
+            "status_separator_icon": "",
+            "working_color": "#D75F00"
+          },
+          "style": "plain",
+          "type": "git"
+        },
+		{
+            "type": "spotify",
+            "style": "powerline",
+            "foreground": "#ffffff",
+            "background": "#491545ff",
+            "properties": {
+              "prefix": "\uF9C6 ",
+              "playing_icon": "\uE602 ",
+              "paused_icon": "\uF8E3 ",
+              "stopped_icon": "\uF04D ",
+              "track_separator" : " - "
+            }
+        },
+        {
+          "foreground": "#D75F00",
+          "properties": {
+            "prefix": "",
+            "text": "λ"
+          },
+          "style": "plain",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "final_space": false
+}

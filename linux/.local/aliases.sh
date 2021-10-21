@@ -35,3 +35,4 @@ alias ccat="bat"
 alias nvim=nvim
 
 alias please=sudo
+alias randompwd="cat /dev/random | head | md5sum | cut -c11-18"
